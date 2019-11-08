@@ -10,8 +10,7 @@ import Shop from './Shop'
 function App(props) {
   return (
     <Provider store={store}>
-      <div>
-        <h1>Hello World</h1>
+      <div className='app'>
         <Sizes />
         <Shop />
         <Cart />

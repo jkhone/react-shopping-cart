@@ -1,0 +1,111 @@
+/* Sizes */
+.sizes {
+    width: 15%;
+    padding: 50px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+
+/* Products */
+.shop {
+    width: 70%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.shoptop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shirt {
+    width: 25%;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shirt:hover {
+    border: 1px solid #ccc;
+}
+
+.shirt .show {
+    background: black;
+    color: white;
+    width: 75px;
+    height: 20x;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.shirt img {
+    width: 100%;
+}
+
+.title {
+    border-bottom: 1px solid rgb(231, 181, 35);
+    padding: 10px;
+}
+
+.shirt p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shirt .hide {
+    opacity: 0;
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.shirt button {
+    width: 90%;
+    height: 45px;
+    color: white;
+    background: black;
+    outline: none;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.shirt button:hover {
+    background: rgb(231, 181, 35) ;
+}
+/* Cart */
+.cart {
+    width: 15%;
+    background: #ccc;
+}
+
+.cart i {
+    color: white;
+    font-size: 50px;
+}
+
+.incart {
+    width: 50%;
+}
