@@ -301,47 +301,6 @@
         "isFreeShipping": true
       },
       "id": 1
-    },
-    {
-      "item": {
-        "id": 15,
-        "sku": 11033926921508488,
-        "title": "Skuul",
-        "description": "Treino 2014",
-        "availableSizes": [
-          "X",
-          "L",
-          "XL",
-          "XXL"
-        ],
-        "style": "Black T-Shirt with front print",
-        "price": 14,
-        "installments": 5,
-        "currencyId": "USD",
-        "currencyFormat": "$",
-        "isFreeShipping": true
-      },
-      "id": 2
-    },
-    {
-      "item": {
-        "id": 14,
-        "sku": 10686354557628304,
-        "title": "Sphynx Tie Dye Wine T-Shirt",
-        "description": "GPX Poly 1",
-        "availableSizes": [
-          "X",
-          "L",
-          "XL"
-        ],
-        "style": "Front tie dye print",
-        "price": 9,
-        "installments": 3,
-        "currencyId": "USD",
-        "currencyFormat": "$",
-        "isFreeShipping": true
-      },
-      "id": 3
     }
   ]
 }

@@ -2,10 +2,9 @@ import React from 'react'
 import '../styles/App.css'
 import { Provider } from 'react-redux'
 import store from '../redux/store'
-import Cart from './Cart'
 import Sizes from './Sizes'
 import Shop from './Shop'
-
+import 'semantic-ui-css/semantic.min.css'
 
 function App(props) {
   return (
@@ -13,7 +12,6 @@ function App(props) {
       <div className='app'>
         <Sizes />
         <Shop />
-        <Cart />
       </div>
     </Provider>
   )

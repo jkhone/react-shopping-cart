@@ -1,6 +1,6 @@
 /* Sizes */
 .sizes {
-    width: 15%;
+    width: 20%;
     padding: 50px;
 }
 
@@ -17,7 +17,27 @@
 
 /* Products */
 .shop {
-    width: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.shop button {
+    height: 35px;
+}
+
+.showcount {
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+    border-radius: 50%;
+    background: rgb(231, 181, 35);
+    text-align: center;
+    line-height: 10px;
+    position: fixed;
+    top: 20px;
+    right: 10px;
 }
 
 .products {
@@ -30,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .shirt {
@@ -96,16 +117,70 @@
     background: rgb(231, 181, 35) ;
 }
 /* Cart */
-.cart {
-    width: 15%;
-    background: #ccc;
+#sidebar {
+    width: 35%;
 }
 
-.cart i {
+.cartcount {
+    position: relative;
+}
+
+.cartcount i {
     color: white;
     font-size: 50px;
 }
 
+.carticon {
+    position: sticky;
+    top: 0;
+}
+
+.cartcount p {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(231, 181, 35);
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    bottom: 40%;
+    left: 49%;
+}
+
 .incart {
-    width: 50%;
+    width: 100%;
+}
+
+.incart h3 {
+    color: white;
+}
+
+.incart button {
+    width: 90%;
+    outline: none;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.incart button:hover {
+    background: rgb(231, 181, 35) ;
+}
+
+.cartshirt {
+    display: flex;
+    margin: 10px; 
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartshirt img {
+    width: 60px;
+}
+
+.cartshirt button {
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
 }
